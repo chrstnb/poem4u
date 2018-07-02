@@ -1,0 +1,87 @@
+html {
+	font-family: 'Consolas', sans-serif;
+	text-align: left;
+}
+
+button {
+	text-align: left;
+}
+
+.tag_button {
+	border:none;
+	cursor:pointer;
+	background-color:#89afed;
+	font-family:'Consolas', sans-serif;
+	font-size:20px;
+	margin: 5px;
+	outline-color: coral;
+	outline-width: 2px;
+}
+
+#poem {
+	margin-left:5px;
+	font-size:15px;
+}
+
+.poem_button {
+	border:none;
+	font-family: 'Consolas', sans-serif;
+	cursor:pointer;
+	font-size:15px;
+	padding:0px;
+	outline-color: teal;
+	outline-width: 2px;
+
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: left;
+    padding:30px;
+}
+
+
+/* visited link */
+a {
+    color: black;
+    text-decoration: none;
+    background-color:lavender;
+}
+
+/* mouse over link */
+a:hover {
+    text-decoration: none;
+    font-style: italic;
+    background-color: aliceblue;
+}
+
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+
+#container {
+	position: relative;
+	min-height: 100%;
+	padding-bottom: 60px;
+	padding-left:5%;
+	padding-right:5%;
+	padding-top:20px;
+}
+#footer {
+   position:absolute;
+   bottom:0;
+   width:90%;
+   height:100px;
+   padding-bottom:20px;
+}
+
+#container {
+   height:100%;
+}
